@@ -1,0 +1,24 @@
+.underlineInput{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #CCC;
+    color: #555;
+    font-family: 'Arvo';
+    font-size: 18px;
+    padding: 10px 0px;
+    transition: border-bottom 0.5s linear;
+}
+.underlineInput:focus {
+    outline: none;    
+    border-bottom: 2px solid dodgerblue;
+  }
+
+.underlineInputnput::-webkit-input-placeholder {
+    color: #AAA;
+}
+
+.underlineInput:focus::-webkit-input-placeholder {
+    color: dodgerblue;
+}
+
+
